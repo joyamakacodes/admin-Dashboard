@@ -1,0 +1,55 @@
+.navbar{
+    color: #555;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        .search{
+            display: flex;
+            border: 0.5px solid rgb(231, 228, 228);
+            padding: 0 10px;
+
+            input{
+                border: none;
+                outline: none;
+               
+            }
+            
+        }
+        .navItems{
+            display: flex;
+            
+            
+            .item{
+                margin: 0px 20px;
+                display: flex;
+                position: relative;
+                .icon{
+                    font-size: 25px;
+                    
+                }
+                .counter{
+                    background-color: red;
+                    border-radius: 50%;
+                    height: 15px;
+                    width: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: -5px;
+                    right: 0px;
+                   
+                    color: white;
+
+                }
+            }
+        }
+    }
+}

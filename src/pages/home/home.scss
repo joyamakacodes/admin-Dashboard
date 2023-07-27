@@ -1,0 +1,22 @@
+.home{
+   display: flex;
+   color: #999;
+    .homeContainer{
+        flex: 6;
+        .widgets, .featuredChart{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .featuredChart{
+            padding: 10px 20px;
+        }
+        .listContainer{
+            -webkit-box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+            padding: 20px;
+            margin: 20px;
+            }
+    }
+    
+}
